@@ -15,10 +15,10 @@ const generateResult = ({ state, cities }) => {
   const listContainer = document.querySelector('#api-result');
   const title = document.querySelector('h1');
   title.innerText = `Cidades do ${state} - ${cities.length} cidades`;
-  cities.forEach((el) => {
+  cities.forEach((city) => {
     const line = document.createElement('tr');
     const column = document.createElement('td');
-    column.innerText = el;
+    column.innerText = city;
     line.appendChild(column);
     listContainer.appendChild(line);
   });
