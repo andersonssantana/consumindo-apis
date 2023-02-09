@@ -4,12 +4,16 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
   }
 }
